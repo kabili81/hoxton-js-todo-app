@@ -62,7 +62,15 @@ function renderOptionsSection() {
 
 
 function renderAddTodoSection() {
-    //    <section>
+
+let addTodoSection = document.createElement('section')
+
+let titleEl = document.createElement('h2')
+addItemTitle.classList.add = ('section__title')
+addItemTitle.innerText = 'ADD ITEM'
+
+
+
 //      <h2 class="title">ADD ITEM</h2>
 //      <form class="add-item">
 //        <input
