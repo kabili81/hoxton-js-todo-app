@@ -83,7 +83,7 @@ function renderTodoSection() {
 
 let todoSection = document.createElement('section')
 
-let titleEL = document.createElement = ('h2')
+let titleEL = document.createElement('h2')
 titleEL.classname = 'section__title'
 titleEL.innerText = 'Todo'
 
